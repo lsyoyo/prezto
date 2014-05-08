@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+eval "$(anyenv init -)"
+
+export HISTSIZE=8999999
+export HISTFILE=~/.zhistory
+
+export PATH=~/bin:$PATH
