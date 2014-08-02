@@ -17,3 +17,11 @@ export HISTSIZE=8999999
 export HISTFILE=~/.zhistory
 
 export PATH=~/bin:$PATH
+
+source ~/.bin/tmuxinator.zsh
+
+export ALTERNATE_EDITOR=""
+# alias e='emacsclient -t'
+# alias ec='emacsclient -c -n'
+
+export EDITOR=e
