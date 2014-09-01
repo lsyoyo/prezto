@@ -25,3 +25,4 @@ export ALTERNATE_EDITOR=""
 # alias ec='emacsclient -c -n'
 
 export EDITOR=e
+export GOPATH=~/workspace/go
