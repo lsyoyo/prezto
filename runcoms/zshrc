@@ -26,4 +26,5 @@ export ALTERNATE_EDITOR=""
 
 export EDITOR=vi
 export GOPATH=~/workspace/go
+export GOROOT=$(go env GOROOT)
 export PATH=$GOPATH/bin:$PATH
