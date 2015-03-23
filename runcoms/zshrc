@@ -16,6 +16,7 @@ eval "$(anyenv init -)"
 export HISTSIZE=8999999
 export HISTFILE=~/.zhistory
 
+export TERM=xterm-256color
 export PATH=~/bin:$PATH
 
 source ~/.bin/tmuxinator.zsh
