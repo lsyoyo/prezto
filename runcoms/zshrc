@@ -29,3 +29,8 @@ export EDITOR=vi
 export GOPATH=~/workspace/go
 export GOROOT=$(go env GOROOT)
 export PATH=$GOPATH/bin:$PATH
+
+# Load z, the jumper
+if [ -f ~/share/z/z.sh ]; then
+  source ~/share/z/z.sh
+fi
