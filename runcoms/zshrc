@@ -29,6 +29,9 @@ export EDITOR=vi
 export GOPATH=~/workspace/go
 export GOROOT=$(go env GOROOT)
 export PATH=$GOPATH/bin:$PATH
+export PATH=~/.cabal/bin:$PATH
+
+alias mutt="cd ~/Desktop; mutt; cd -"
 
 # Load z, the jumper
 if [ -f ~/share/z/z.sh ]; then
